@@ -1,0 +1,28 @@
+﻿<Window x:Class="Второе_задание.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Второе_задание"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="800">
+    <Grid>
+        <WrapPanel Margin="244,69,0,0" Height="NaN" Width="NaN">
+            <Label Content="        &#xA;        A" Height="50" Width="50" Background="#FFFFF500" FontStretch="UltraExpanded" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        B" Height="50" Width="50" Background="Red" FontStretch="UltraExpanded" Canvas.Left="242" Canvas.Top="74" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        C" Height="50" Width="50" Background="#FF00B34D" FontStretch="UltraExpanded" Canvas.Left="332" Canvas.Top="74" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;       D" Height="50" Width="50" Background="#FF0033FF" FontStretch="UltraExpanded" Canvas.Left="419" Canvas.Top="74" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        E &#xA;" Height="50" Width="50" Background="#FF828282" FontStretch="UltraExpanded" Canvas.Left="505" Canvas.Top="73" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        F &#xA;" Height="50" Width="50" Background="#FFF5EEA0" FontStretch="UltraExpanded" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        </WrapPanel>
+        <WrapPanel Margin="307,188,0,0">
+            <Label Content="        &#xA;        A" Height="50" Width="50" Background="#FFFFF500" FontStretch="UltraExpanded" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        B" Height="50" Width="50" Background="Red" FontStretch="UltraExpanded" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        C" Height="50" Width="50" Background="#FF00B34D" FontStretch="UltraExpanded" Canvas.Left="332" Canvas.Top="74" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;       D" Height="50" Width="50" Background="#FF0033FF" FontStretch="UltraExpanded" Canvas.Left="419" Canvas.Top="74" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        E &#xA;" Height="50" Width="50" Background="#FF828282" FontStretch="UltraExpanded" Canvas.Left="505" Canvas.Top="73" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <Label Content="        &#xA;        F &#xA;" Height="50" Width="50" Background="#FFF5EEA0" FontStretch="UltraExpanded" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.495,0.506"/>
+        </WrapPanel>
+    </Grid>
+
+</Window>
